@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: sans-serif;
+
+}
+/*------ nav bar --------*/
+#navbar{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+.bold{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+li{
+    padding: 5px;
+}
+ul li a{
+    color: blue;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: 0.1s;
+}
+/*--------section for home-------*/
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+/*------span-----*/
+span{
+    color: blue;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+}
+
+/*-----about------*/
+#about img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50px;
+}
+
+/*-----services-----*/
+
+.card img{
+    height: 200px;
+}
+.in-animation{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: 0.8s;
+}
+
+/*----contact-------*/
+
+form{
+    padding: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.2),
+                -1px -1px 5px rgba(0,0,0, 0.05);
+    border-radius: 10px;
+}
